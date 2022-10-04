@@ -5,8 +5,10 @@ import { Fade } from "react-reveal";
 
 export default function GithubRepoCard({ repo, theme }) {
   function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
+    if (url !== "") {
+      var win = window.open(url, "_blank");
+      win.focus();
+    }
   }
 
   return (

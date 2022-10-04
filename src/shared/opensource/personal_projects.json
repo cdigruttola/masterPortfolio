@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": "DrugApp",
+      "name": "DrugApp",
+      "createdAt": "2022-09-26T14:50:59Z",
+      "url": "",
+      "description": "App to manage drugs, with reminders of quantity and expiry. Final project of UniSa iOS Developer Academy Course.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        }
+      ]
+    },
+    {
+      "id": "RobotVisionCup2016",
+      "name": "Robot Vision Cup 2016",
+      "createdAt": "2022-09-26T14:50:59Z",
+      "url": "",
+      "description": "Using an Aldebaran NAO to recognize some markers or objects and move or behave accordingly. Responsibilities: Development, Documentation",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C++",
+          "iconifyClass": "bxl-c-plus-plus"
+        },
+        {
+          "name": "OpenCV",
+          "iconifyClass": "logos-opencv"
+        }
+      ]
+    },
+    {
+      "id": "Pansharpening",
+      "name": "GS & GSA Pansharpening",
+      "createdAt": "2022-09-26T14:50:59Z",
+      "url": "",
+      "description": "IDL project to develop Gram-Schmidt & Gram-Schmidt Adaptive method for pansharpening in remote sensing application. ERGAS, SCC, SAM and Q4 indexes to evaluate the fusion methods.",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "HealthClassificationEased",
+      "name": "Health Classification Eased",
+      "createdAt": "2022-09-26T14:50:59Z",
+      "url": "",
+      "description": "Multiplatform mobile application aiming to ease the access to medical classifications. Responsibilities: Design, Development, Documentation",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "BasketLED",
+      "name": "BasketLED",
+      "createdAt": "2022-09-26T14:50:59Z",
+      "url": "",
+      "description": "System for automatic basket points sensing using a ST microcontroller and self-chosen sensors, final project for the Embedded System course.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C",
+          "iconifyClass": "logos-c"
+        }
+      ]
+    },
+    {
+      "id": "SpaceInvaders",
+      "name": "Space Invaders",
+      "createdAt": "2022-09-26T14:50:59Z",
+      "url": "",
+      "description": "Space Invaders replica using Java technologies. Final project for the Software Engineering course. Responsibilities: Design, Development, Documentation",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        }
+      ]
+    }
+  ]
+}
