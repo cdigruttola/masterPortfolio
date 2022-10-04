@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -306,47 +306,47 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     /*
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-  */
+        {
+          siteName: "HackerRank",
+          iconifyClassname: "simple-icons:hackerrank",
+          style: {
+            color: "#2EC866",
+          },
+          profileLink: "https://www.hackerrank.com/layman_brother",
+        },
+        {
+          siteName: "Codechef",
+          iconifyClassname: "simple-icons:codechef",
+          style: {
+            color: "#5B4638",
+          },
+          profileLink: "https://www.codechef.com/users/ashutosh_1919",
+        },
+        {
+          siteName: "Codeforces",
+          iconifyClassname: "simple-icons:codeforces",
+          style: {
+            color: "#1F8ACB",
+          },
+          profileLink: "http://codeforces.com/profile/layman_brother",
+        },
+        {
+          siteName: "Hackerearth",
+          iconifyClassname: "simple-icons:hackerearth",
+          style: {
+            color: "#323754",
+          },
+          profileLink: "https://www.hackerearth.com/@ashutosh391",
+        },
+        {
+          siteName: "Kaggle",
+          iconifyClassname: "simple-icons:kaggle",
+          style: {
+            color: "#20BEFF",
+          },
+          profileLink: "https://www.kaggle.com/laymanbrother",
+        },
+      */
   ],
 };
 
@@ -440,45 +440,54 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
+          title: "Senior Associate",
+          company: "PwC S.p.A.",
+          company_url: "https://www.pwc.com/",
+          logo_path: "pwc_logo.png",
+          duration: "03/2022 - Present",
+          location: "Naples, Italy",
+          description: "Sap Commerce Cloud Developer",
+          color: "#e0301e",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "IT E-commerce Platform Specialist",
+          company: "Unieuro S.p.A.",
+          company_url: "https://www.unieurospa.com/",
+          logo_path: "unieuro_logo.png",
+          duration: "10/2020 - 02/2022",
+          location: "Forlì, Italy",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+            "Business contact to collect and analyse functional requirements, coordinate a team to develop, test and release new features on site and monitoring and development of system integration tools",
+          color: "#4385f4",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Software Engineer",
+          company: "Sopra Steria Group S.p.A.",
+          company_url: "https://www.purple.it/",
+          logo_path: "purple_logo.jpeg",
+          duration: "02/2020 - 09/2020",
+          location: "Milan, Italy",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "Developing of Artificial Vision Software using Point Cloud to represent model and Halcon",
+          color: "#f75a00",
+        },
+        {
+          title: "Solution Building Engineer",
+          company: "Sopra Steria Group S.p.A.",
+          company_url: "https://www.soprasteria.it/",
+          logo_path: "ssg_logo.png",
+          duration: "05/2017 - 02/2020",
+          location: "Ariano Irpino, Italy",
+          description:
+            "Team-oriented back-end and integration developer (SAP Hybris Commerce 5.x), experienced in creating and customizing services from scratch, follow all Agile Method phases, meeting business functional and technical requirements. I've been working in order to support correct communication between external systems (SalesForce, ERP, MuleSoft, etc) and low-level systems, and also focused on Continous Integration and Deploy/Release procedures. I gained experience in customer relationship and his third-party collaborators to ensure a correct and efficient development workflow.",
+          color: "#a60726",
         },
       ],
     },
@@ -486,60 +495,25 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+          title: "Students' Delegate",
+          company: "University of Salerno",
+          company_url: "https://www.unisa.it/",
+          logo_path: "unisa_logo.png",
+          duration: "04/2015 - 09/2016",
+          location: "",
+          description: "",
+          color: "#FF9900",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Help Teaching",
+          company: "University of Salerno",
+          company_url: "https://www.unisa.it/",
+          logo_path: "unisa_logo.png",
+          duration: "03/2016 - 09/2016",
+          location: "",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+            "Help teaching for students with specific learning disorders.",
+          color: "#FF9900",
         },
       ],
     },
@@ -564,13 +538,13 @@ const publicationsHeader = {
 const publications = {
   data: [
     /*        {
-            id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-            name: "Artificial Intelligence Paper",
-            createdAt: "2020-03-06T16:26:54Z",
-            description: "Paper Written on Artificial Intelligence published in xyz ",
-            url:
-                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-        },*/
+                id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+                name: "Artificial Intelligence Paper",
+                createdAt: "2020-03-06T16:26:54Z",
+                description: "Paper Written on Artificial Intelligence published in xyz ",
+                url:
+                    "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+            },*/
   ],
 };
 
