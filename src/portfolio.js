@@ -24,8 +24,7 @@ const greeting = {
   nickname: "cdigruttola",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+  resumeLink: "",
   githubProfile: "https://github.com/cdigruttola",
 };
 
@@ -306,6 +305,7 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
+    /*
     {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
@@ -346,34 +346,58 @@ const competitiveSites = {
       },
       profileLink: "https://www.kaggle.com/laymanbrother",
     },
+  */
   ],
 };
 
 const degrees = {
   degrees: [
     {
+      title: "UIIP - Biogem",
+      subtitle: "Hybris Junior programmer",
+      logo_path: "uiip_logo.png",
+      alt_name: "UIIP",
+      duration: "03/2017 - 05/2017",
+      descriptions: [
+        "Vertical Formation on Sap Hybris",
+        "Cross Formation on Teamwork, Communication Management, Public speaking and Effective Presentation",
+      ],
+      website_link: "https://www.uiip.it",
+    },
+    {
       title: "University of Salerno",
       subtitle: "Master in Computer Engineering",
       logo_path: "unisa_logo.png",
       alt_name: "Unisa",
-      duration: "2014 - 2017",
+      duration: "02/2015 - 02/2017",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "Master degree level courses, with a focus on embeddedsystems, advanced data structures, advanced control techniques, robotics, artificial inteligence, remote sensing, software engineering, semantic web, mobile programming and computer vision.",
+        "This course of study is certificated by ENAEE (European Network for Accreditation of Engineering Education).",
       ],
       website_link: "https://www.unisa.it",
+    },
+    {
+      title: "University of Southampton",
+      subtitle: "Exchange Erasmus Student",
+      logo_path: "southampton_logo.png",
+      alt_name: "Southampton",
+      duration: "09/2016 - 01/2017",
+      descriptions: [
+        "Exchange student with the Erasmus programme at Electronic and Computer Science department at University of Southampton.",
+        "I developed my master thesis project about Semantic Web and Internet of Things using a Raspberry Pi 2. A performance analysis has been done to evaluate the quality of the system in term of response times.",
+      ],
+      website_link: "https://www.southampton.ac.uk",
     },
     {
       title: "University of Salerno",
       subtitle: "Bachelor in Computer Engineering",
       logo_path: "unisa_logo.png",
       alt_name: "Unisa",
-      duration: "2011 - 2014",
+      duration: "10/2011 - 12/2014",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "Bachelor degree on basics computer engineering topics, with an adeguated knowledge of maths and physics, basic data structure, programming and database skills.",
+        "Basic knowledge of telecommunication systems, computer networks, automatic controls and control systems.",
+        "This course of study is certificated by ENAEE (European Network for Accreditation of Engineering Education).",
       ],
       website_link: "https://www.unisa.it",
     },
@@ -383,112 +407,31 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title:
+        "SAP Certified Development Professional - SAP Commerce Cloud Developer",
+      subtitle: "- Carmine Di Gruttola",
+      logo_path: "sap_logo.svg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://www.credly.com/badges/6e6a398d-4743-4f71-8c29-d5ec4f4cb289",
+      alt_name: "SAP",
+      color_code: "#007db8",
+    },
+    {
+      title: "SCRUM Master Certified",
+      subtitle: "- Carmine Di Gruttola",
+      logo_path: "badge_SMC.png",
+      certificate_link:
+        "https://www.scrumstudy.com/certification/verify?type=SMC&number=866781",
+      alt_name: "SCM",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+      title: "Trinity College Grade 6",
+      subtitle: "- Carmine Di Gruttola",
+      logo_path: "trinity_logo.jpeg",
+      certificate_link: "",
+      alt_name: "Trinity",
+      color_code: "#6A215F",
     },
   ],
 };
@@ -536,34 +479,6 @@ const experience = {
           description:
             "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
           color: "#fc1f20",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
         },
       ],
     },
@@ -648,46 +563,14 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
+    /*        {
+            id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+            name: "Artificial Intelligence Paper",
+            createdAt: "2020-03-06T16:26:54Z",
+            description: "Paper Written on Artificial Intelligence published in xyz ",
+            url:
+                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        },*/
   ],
 };
 
@@ -695,9 +578,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "cdg.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Ecommerce, Backend and Opensource Development.",
   },
   addressSection: {
     title: "Address",
