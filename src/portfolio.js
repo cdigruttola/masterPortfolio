@@ -409,7 +409,7 @@ const certifications = {
     {
       title:
         "SAP Certified Development Professional - SAP Commerce Cloud Developer",
-      subtitle: "- Carmine Di Gruttola",
+      subtitle: "",
       logo_path: "sap_logo.svg",
       certificate_link:
         "https://www.credly.com/badges/6e6a398d-4743-4f71-8c29-d5ec4f4cb289",
@@ -418,7 +418,7 @@ const certifications = {
     },
     {
       title: "SCRUM Master Certified",
-      subtitle: "- Carmine Di Gruttola",
+      subtitle: "",
       logo_path: "badge_SMC.png",
       certificate_link:
         "https://www.scrumstudy.com/certification/verify?type=SMC&number=866781",
@@ -426,8 +426,16 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
+      title: "Qualified to practice",
+      subtitle: "Computer Engineer - ID 2934",
+      logo_path: "order_logo.jpeg",
+      certificate_link: "",
+      alt_name: "Order",
+      color_code: "#FFF",
+    },
+    {
       title: "Trinity College Grade 6",
-      subtitle: "- Carmine Di Gruttola",
+      subtitle: "",
       logo_path: "trinity_logo.jpeg",
       certificate_link: "",
       alt_name: "Trinity",
@@ -469,7 +477,7 @@ const experience = {
         },
         {
           title: "Software Engineer",
-          company: "Sopra Steria Group S.p.A.",
+          company: "Purple S.r.l.",
           company_url: "https://www.purple.it/",
           logo_path: "purple_logo.jpeg",
           duration: "02/2020 - 09/2020",
