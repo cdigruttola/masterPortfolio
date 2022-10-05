@@ -19,6 +19,26 @@ class Header extends Component {
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
+    const openSource = settings.opensource;
+    const hobbies = settings.hobbies;
+
+    const MyLink = ({ name, link }) => {
+      return (
+        <li className="li">
+          <NavLink
+            to={link}
+            tag={Link}
+            activeStyle={{ fontWeight: "bold" }}
+            style={{ color: theme.text }}
+            onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+            onMouseOut={(event) => onMouseOut(event)}
+          >
+            {name}
+          </NavLink>
+        </li>
+      );
+    };
+
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
@@ -36,78 +56,13 @@ class Header extends Component {
               <span className="navicon"></span>
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
-              <li>
-                <NavLink
-                  to="/home"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/education"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Education
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/experience"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/projects"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Projects
-                </NavLink>
-              </li>
-              {/*           <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
-                </NavLink>
-              </li>*/}
-              <li>
-                <NavLink
-                  to="/contact"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Contact Me
-                </NavLink>
-              </li>
+              <MyLink name="Home" link="/home" />
+              <MyLink name="Education" link="/education" />
+              <MyLink name="Experience" link="/experience" />
+              <MyLink name="Projects" link="/projects" />
+              {openSource && <MyLink name="Open Source" link="/opensource" />}
+              {hobbies && <MyLink name="Hobbies" link="/hobbies" />}
+              <MyLink name="Contact Me" link="/contact" />
             </ul>
           </header>
         </div>
