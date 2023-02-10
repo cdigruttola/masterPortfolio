@@ -188,47 +188,47 @@ const techStack = {
 const competitiveSites = {
   competitiveSites: [
     /*
-        {
-          siteName: "HackerRank",
-          iconifyClassname: "simple-icons:hackerrank",
-          style: {
-            color: "#2EC866",
-          },
-          profileLink: "https://www.hackerrank.com/layman_brother",
-        },
-        {
-          siteName: "Codechef",
-          iconifyClassname: "simple-icons:codechef",
-          style: {
-            color: "#5B4638",
-          },
-          profileLink: "https://www.codechef.com/users/ashutosh_1919",
-        },
-        {
-          siteName: "Codeforces",
-          iconifyClassname: "simple-icons:codeforces",
-          style: {
-            color: "#1F8ACB",
-          },
-          profileLink: "http://codeforces.com/profile/layman_brother",
-        },
-        {
-          siteName: "Hackerearth",
-          iconifyClassname: "simple-icons:hackerearth",
-          style: {
-            color: "#323754",
-          },
-          profileLink: "https://www.hackerearth.com/@ashutosh391",
-        },
-        {
-          siteName: "Kaggle",
-          iconifyClassname: "simple-icons:kaggle",
-          style: {
-            color: "#20BEFF",
-          },
-          profileLink: "https://www.kaggle.com/laymanbrother",
-        },
-      */
+            {
+              siteName: "HackerRank",
+              iconifyClassname: "simple-icons:hackerrank",
+              style: {
+                color: "#2EC866",
+              },
+              profileLink: "https://www.hackerrank.com/layman_brother",
+            },
+            {
+              siteName: "Codechef",
+              iconifyClassname: "simple-icons:codechef",
+              style: {
+                color: "#5B4638",
+              },
+              profileLink: "https://www.codechef.com/users/ashutosh_1919",
+            },
+            {
+              siteName: "Codeforces",
+              iconifyClassname: "simple-icons:codeforces",
+              style: {
+                color: "#1F8ACB",
+              },
+              profileLink: "http://codeforces.com/profile/layman_brother",
+            },
+            {
+              siteName: "Hackerearth",
+              iconifyClassname: "simple-icons:hackerearth",
+              style: {
+                color: "#323754",
+              },
+              profileLink: "https://www.hackerearth.com/@ashutosh391",
+            },
+            {
+              siteName: "Kaggle",
+              iconifyClassname: "simple-icons:kaggle",
+              style: {
+                color: "#20BEFF",
+              },
+              profileLink: "https://www.kaggle.com/laymanbrother",
+            },
+          */
   ],
 };
 
@@ -289,6 +289,25 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "SAP Certified Product Support Specialist - SAP Commerce Cloud",
+      subtitle: "",
+      logo_path: "sap_logo.svg",
+      certificate_link:
+        "https://www.credly.com/badges/a6708627-0a8e-4daf-bc3a-010d87125063",
+      alt_name: "SAP",
+      color_code: "#007db8",
+    },
+    {
+      title:
+        "SAP Certified Application Associate - SAP Commerce Cloud Business User 2023",
+      subtitle: "",
+      logo_path: "sap_logo.svg",
+      certificate_link:
+        "https://www.credly.com/badges/b0ffcd9c-f842-46ab-907d-0fe2531e9913",
+      alt_name: "SAP",
+      color_code: "#007db8",
+    },
+    {
       title:
         "SAP Certified Development Professional - SAP Commerce Cloud Developer",
       subtitle: "",
@@ -343,7 +362,8 @@ const experience = {
           logo_path: "pwc_logo.png",
           duration: "03/2022 - Present",
           location: "Naples, Italy",
-          description: "Sap Commerce Cloud Developer",
+          description:
+            "Team-oriented back-end developer (SAP Commerce Cloud) with professional experience in Agile methodology to build and customise industry-focused software-based solutions to help organizations meet their business goals. I focused on back-end system for Order Management and Payment Service Provider communication.",
           color: "#e0301e",
         },
         {
@@ -428,13 +448,13 @@ const publicationsHeader = {
 const publications = {
   data: [
     /*        {
-                id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-                name: "Artificial Intelligence Paper",
-                createdAt: "2020-03-06T16:26:54Z",
-                description: "Paper Written on Artificial Intelligence published in xyz ",
-                url:
-                    "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-            },*/
+                    id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+                    name: "Artificial Intelligence Paper",
+                    createdAt: "2020-03-06T16:26:54Z",
+                    description: "Paper Written on Artificial Intelligence published in xyz ",
+                    url:
+                        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+                },*/
   ],
 };
 
