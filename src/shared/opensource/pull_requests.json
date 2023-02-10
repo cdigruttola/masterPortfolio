@@ -1,6 +1,207 @@
 {
-  "closed": 2,
+  "closed": 3,
   "data": [
+    {
+      "id": "PR_kwDOIzF1Jc5IMdPF",
+      "title": "Feature/model",
+      "url": "https://github.com/cdigruttola/NutrictionFact/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9153905?v=4",
+        "url": "https://github.com/cdigruttola",
+        "login": "cdigruttola"
+      },
+      "createdAt": "2023-01-20T08:42:21Z",
+      "number": 2,
+      "changedFiles": 5,
+      "additions": 64,
+      "deletions": 9,
+      "baseRepository": {
+        "name": "NutrictionFact",
+        "url": "https://github.com/cdigruttola/NutrictionFact",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9153905?v=4",
+          "login": "cdigruttola",
+          "url": "https://github.com/cdigruttola"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOIzF1Jc5IIKHk",
+      "title": "Feature/model",
+      "url": "https://github.com/cdigruttola/NutrictionFact/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9153905?v=4",
+        "url": "https://github.com/cdigruttola",
+        "login": "cdigruttola"
+      },
+      "createdAt": "2023-01-19T13:54:59Z",
+      "number": 1,
+      "changedFiles": 13,
+      "additions": 447,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "NutrictionFact",
+        "url": "https://github.com/cdigruttola/NutrictionFact",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9153905?v=4",
+          "login": "cdigruttola",
+          "url": "https://github.com/cdigruttola"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAGeZhc5HK4To",
+      "title": "Update pom for jackson dependencies",
+      "url": "https://github.com/shopizer-ecommerce/shopizer/pull/865",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2850035?v=4",
+        "url": "https://github.com/shopizer-ecommerce",
+        "login": "shopizer-ecommerce"
+      },
+      "createdAt": "2023-01-11T15:48:46Z",
+      "number": 865,
+      "changedFiles": 1,
+      "additions": 2,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "shopizer",
+        "url": "https://github.com/shopizer-ecommerce/shopizer",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2850035?v=4",
+          "login": "shopizer-ecommerce",
+          "url": "https://github.com/shopizer-ecommerce"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAYq_v85GQq_F",
+      "title": "add creation of local inventory feed",
+      "url": "https://github.com/dim00z/gshoppingflux/pull/109",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2022-12-27T18:28:54Z",
+      "number": 109,
+      "changedFiles": 2,
+      "additions": 174,
+      "deletions": 22,
+      "baseRepository": {
+        "name": "gshoppingflux",
+        "url": "https://github.com/dim00z/gshoppingflux",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9432413?u=cd0fe9cb341f3c971922dfc0a6045505fa046cca&v=4",
+          "login": "dim00z",
+          "url": "https://github.com/dim00z"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAYq_v85Fka1h",
+      "title": "add check on virtual product to sent zero shipping costs",
+      "url": "https://github.com/dim00z/gshoppingflux/pull/108",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2022-12-15T18:01:22Z",
+      "number": 108,
+      "changedFiles": 1,
+      "additions": 7,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "gshoppingflux",
+        "url": "https://github.com/dim00z/gshoppingflux",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9432413?u=cd0fe9cb341f3c971922dfc0a6045505fa046cca&v=4",
+          "login": "dim00z",
+          "url": "https://github.com/dim00z"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAYq_v85FkUJI",
+      "title": "Add possibility to export short and long description",
+      "url": "https://github.com/dim00z/gshoppingflux/pull/107",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2022-12-15T17:38:48Z",
+      "number": 107,
+      "changedFiles": 1,
+      "additions": 12,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "gshoppingflux",
+        "url": "https://github.com/dim00z/gshoppingflux",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9432413?u=cd0fe9cb341f3c971922dfc0a6045505fa046cca&v=4",
+          "login": "dim00z",
+          "url": "https://github.com/dim00z"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAGeZhc5C0Lif",
+      "title": "Update pom for jackson dependencies",
+      "url": "https://github.com/shopizer-ecommerce/shopizer/pull/842",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2022-11-14T08:38:01Z",
+      "number": 842,
+      "changedFiles": 0,
+      "additions": 0,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "shopizer",
+        "url": "https://github.com/shopizer-ecommerce/shopizer",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2850035?v=4",
+          "login": "shopizer-ecommerce",
+          "url": "https://github.com/shopizer-ecommerce"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAGc0Q85Ctb-s",
+      "title": "Add accept field in tpl for input type file",
+      "url": "https://github.com/PrestaShop/PrestaShop/pull/30270",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2022-11-11T15:05:56Z",
+      "number": 30270,
+      "changedFiles": 4,
+      "additions": 75,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "PrestaShop",
+        "url": "https://github.com/PrestaShop/PrestaShop",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2815696?v=4",
+          "login": "PrestaShop",
+          "url": "https://github.com/PrestaShop"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAGc0Q85CFBDv",
+      "title": "Add new setting for package weight in Shipping > Preferences",
+      "url": "https://github.com/PrestaShop/PrestaShop/pull/30192",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2022-11-02T17:44:47Z",
+      "number": 30192,
+      "changedFiles": 6,
+      "additions": 123,
+      "deletions": 25,
+      "baseRepository": {
+        "name": "PrestaShop",
+        "url": "https://github.com/PrestaShop/PrestaShop",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2815696?v=4",
+          "login": "PrestaShop",
+          "url": "https://github.com/PrestaShop"
+        }
+      }
+    },
     {
       "id": "PR_kwDOHqJT1849uMZz",
       "title": "rename",
@@ -169,7 +370,7 @@
       }
     }
   ],
-  "merged": 5,
-  "open": 0,
-  "totalCount": 7
+  "merged": 8,
+  "open": 5,
+  "totalCount": 16
 }

@@ -47,6 +47,46 @@
           "iconifyClass": "simple-icons:shell"
         }
       ]
+    },
+    {
+      "id": "R_kgDOIgghpw",
+      "name": "paypaltracking",
+      "createdAt": "2022-11-26T17:28:28Z",
+      "url": "https://github.com/cdigruttola/paypaltracking",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOIalq3w",
+      "name": "sendcloudapi",
+      "createdAt": "2022-11-11T12:13:57Z",
+      "url": "https://github.com/cdigruttola/sendcloudapi",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        }
+      ]
     }
   ]
 }
