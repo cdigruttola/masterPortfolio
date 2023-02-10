@@ -70,7 +70,7 @@ const socialMediaLinks = [
   {
     name: "Phone",
     link: "tel:+39 3314207036",
-    fontAwesomeIcon: "fa fa-phone", // Reference https://fontawesome.com/icons/instagram?style=brands
+    fontAwesomeIcon: "fa fa-phone-alt", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#0dc143", // Reference https://simpleicons.org/?q=instagram
   },
 ];
