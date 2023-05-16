@@ -354,6 +354,7 @@ const experience = {
   sections: [
     {
       title: "Work",
+      work: true,
       experiences: [
         {
           title: "Senior Associate",
@@ -488,6 +489,11 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle: "Contrada Cariello, 25/C 83031 Ariano Irpino (AV) Italy",
+    locality: "Ariano Irpino",
+    country: "IT",
+    region: "AV",
+    postalCode: "83031",
+    streetAddress: "Contrada Cariello, 25/C",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/QqTRMteEycBwCiwn6",
   },
