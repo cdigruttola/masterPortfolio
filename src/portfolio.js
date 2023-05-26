@@ -120,6 +120,10 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
+        {
+          skillName: "Deeplearning",
+          imageSrc: "deeplearning_ai_logo.png",
+        },
       ],
     },
     {
