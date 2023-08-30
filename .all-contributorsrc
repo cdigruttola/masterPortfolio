@@ -272,6 +272,25 @@
         "ideas",
         "code"
       ]
+    },
+    {
+      "login": "cdigruttola",
+      "name": "Carmine Di Gruttola",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9153905?v=4",
+      "profile": "http://cdigruttola.it",
+      "contributions": [
+        "ideas",
+        "promotion"
+      ]
+    },
+    {
+      "login": "Vyomrana02",
+      "name": "Vyom Rana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87069619?v=4",
+      "profile": "https://github.com/Vyomrana02",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -280,5 +299,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
