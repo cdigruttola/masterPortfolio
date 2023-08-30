@@ -60,6 +60,7 @@ class Header extends Component {
               <MyLink name="Education" link="/education" />
               <MyLink name="Experience" link="/experience" />
               <MyLink name="Projects" link="/projects" />
+              <MyLink name="Shop" link="/shop" />
               {openSource && <MyLink name="Open Source" link="/opensource" />}
               {hobbies && <MyLink name="Hobbies" link="/hobbies" />}
               <MyLink name="Contact Me" link="/contact" />
