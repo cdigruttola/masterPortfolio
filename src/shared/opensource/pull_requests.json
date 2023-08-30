@@ -1,6 +1,350 @@
 {
-  "closed": 3,
+  "closed": 11,
   "data": [
+    {
+      "id": "PR_kwDOFIcNUc5Y5-XK",
+      "title": "Fix in case of update after adding new language",
+      "url": "https://github.com/Oksydan/is_imageslider/pull/36",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-28T07:59:21Z",
+      "number": 36,
+      "changedFiles": 1,
+      "additions": 15,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "is_imageslider",
+        "url": "https://github.com/Oksydan/is_imageslider",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFIcNUc5Y55oO",
+      "title": "Fix for new translation system",
+      "url": "https://github.com/Oksydan/is_imageslider/pull/35",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-28T07:50:02Z",
+      "number": 35,
+      "changedFiles": 1,
+      "additions": 5,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "is_imageslider",
+        "url": "https://github.com/Oksydan/is_imageslider",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJOdNk85Y54QL",
+      "title": "Fix for new translation system",
+      "url": "https://github.com/Oksydan/is_favoriteproducts/pull/5",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-28T07:47:20Z",
+      "number": 5,
+      "changedFiles": 3,
+      "additions": 13,
+      "deletions": 8,
+      "baseRepository": {
+        "name": "is_favoriteproducts",
+        "url": "https://github.com/Oksydan/is_favoriteproducts",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFBCk3c5Y52D0",
+      "title": "Fix for new translation system",
+      "url": "https://github.com/Oksydan/is_shoppingcart/pull/18",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-28T07:41:00Z",
+      "number": 18,
+      "changedFiles": 3,
+      "additions": 10,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "is_shoppingcart",
+        "url": "https://github.com/Oksydan/is_shoppingcart",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJOdNk85Y38Ae",
+      "title": "Add new translation system",
+      "url": "https://github.com/Oksydan/is_favoriteproducts/pull/4",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-27T19:58:22Z",
+      "number": 4,
+      "changedFiles": 3,
+      "additions": 13,
+      "deletions": 8,
+      "baseRepository": {
+        "name": "is_favoriteproducts",
+        "url": "https://github.com/Oksydan/is_favoriteproducts",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFIcNUc5Y37zn",
+      "title": "New translation system",
+      "url": "https://github.com/Oksydan/is_imageslider/pull/34",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-27T19:54:43Z",
+      "number": 34,
+      "changedFiles": 2,
+      "additions": 20,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "is_imageslider",
+        "url": "https://github.com/Oksydan/is_imageslider",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFBCk3c5Y3zWr",
+      "title": "New Translation system",
+      "url": "https://github.com/Oksydan/is_shoppingcart/pull/17",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-27T17:19:40Z",
+      "number": 17,
+      "changedFiles": 3,
+      "additions": 10,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "is_shoppingcart",
+        "url": "https://github.com/Oksydan/is_shoppingcart",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOEN5cEM5XpCiw",
+      "title": "Update payment.tpl to avoid error with ps_checkout module",
+      "url": "https://github.com/Oksydan/falcon/pull/254",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-10T13:41:57Z",
+      "number": 254,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "falcon",
+        "url": "https://github.com/Oksydan/falcon",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJ_3jDc5XpCA6",
+      "title": "Update payment.tpl to avoid error with ps_checkout module",
+      "url": "https://github.com/cdigruttola/falcon/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9153905?v=4",
+        "url": "https://github.com/cdigruttola",
+        "login": "cdigruttola"
+      },
+      "createdAt": "2023-08-10T13:40:52Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "falcon",
+        "url": "https://github.com/cdigruttola/falcon",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9153905?v=4",
+          "login": "cdigruttola",
+          "url": "https://github.com/cdigruttola"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFBShWc5XNCox",
+      "title": "manage translation",
+      "url": "https://github.com/Oksydan/is_searchbar/pull/13",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-04T14:29:22Z",
+      "number": 13,
+      "changedFiles": 1,
+      "additions": 7,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "is_searchbar",
+        "url": "https://github.com/Oksydan/is_searchbar",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFIcNUc5XNCgW",
+      "title": "add new translation system",
+      "url": "https://github.com/Oksydan/is_imageslider/pull/32",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-04T14:29:08Z",
+      "number": 32,
+      "changedFiles": 3,
+      "additions": 21,
+      "deletions": 4,
+      "baseRepository": {
+        "name": "is_imageslider",
+        "url": "https://github.com/Oksydan/is_imageslider",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJOdNk85XNCbi",
+      "title": "add new translation system",
+      "url": "https://github.com/Oksydan/is_favoriteproducts/pull/3",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-04T14:28:59Z",
+      "number": 3,
+      "changedFiles": 3,
+      "additions": 12,
+      "deletions": 7,
+      "baseRepository": {
+        "name": "is_favoriteproducts",
+        "url": "https://github.com/Oksydan/is_favoriteproducts",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOFBCk3c5XNCTq",
+      "title": "add method for new translation system",
+      "url": "https://github.com/Oksydan/is_shoppingcart/pull/16",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-08-04T14:28:46Z",
+      "number": 16,
+      "changedFiles": 3,
+      "additions": 10,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "is_shoppingcart",
+        "url": "https://github.com/Oksydan/is_shoppingcart",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "login": "Oksydan",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOAGFLkc5RHiJH",
+      "title": "check older gcc version",
+      "url": "https://github.com/pocoproject/poco/pull/4041",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-05-23T08:37:39Z",
+      "number": 4041,
+      "changedFiles": 1,
+      "additions": 1,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "poco",
+        "url": "https://github.com/pocoproject/poco",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/201918?v=4",
+          "login": "pocoproject",
+          "url": "https://github.com/pocoproject"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDODqGIis5QptF0",
+      "title": "add json schemaorg",
+      "url": "https://github.com/ashutosh1919/masterPortfolio/pull/292",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
+        "url": "https://github.com/ashutosh1919",
+        "login": "ashutosh1919"
+      },
+      "createdAt": "2023-05-16T20:33:39Z",
+      "number": 292,
+      "changedFiles": 2,
+      "additions": 65,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "masterPortfolio",
+        "url": "https://github.com/ashutosh1919/masterPortfolio",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/20843596?u=6deb5872cde2e3ab5bf5d48ece503bc8b5b0bcf6&v=4",
+          "login": "ashutosh1919",
+          "url": "https://github.com/ashutosh1919"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOIMB5jM5PlkU7",
+      "title": "Feature/microdata",
+      "url": "https://github.com/Pixel-Open/prestashop-googlemybusiness/pull/1",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-05-02T13:27:09Z",
+      "number": 1,
+      "changedFiles": 5,
+      "additions": 107,
+      "deletions": 10,
+      "baseRepository": {
+        "name": "prestashop-googlemybusiness",
+        "url": "https://github.com/Pixel-Open/prestashop-googlemybusiness",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/115344278?v=4",
+          "login": "Pixel-Open",
+          "url": "https://github.com/Pixel-Open"
+        }
+      }
+    },
     {
       "id": "PR_kwDOIzF1Jc5IMdPF",
       "title": "Feature/model",
@@ -370,7 +714,7 @@
       }
     }
   ],
-  "merged": 8,
-  "open": 5,
-  "totalCount": 16
+  "merged": 10,
+  "open": 11,
+  "totalCount": 32
 }

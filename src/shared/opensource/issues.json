@@ -1,6 +1,92 @@
 {
-  "closed": 5,
+  "closed": 7,
   "data": [
+    {
+      "id": "I_kwDOEN5cEM5vafWX",
+      "closed": false,
+      "title": "🐛 [BUG] - is_imageslider doesn't create ImageSliderLang in case of update",
+      "createdAt": "2023-08-28T07:59:10Z",
+      "url": "https://github.com/Oksydan/falcon/issues/267",
+      "number": 267,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "falcon",
+        "url": "https://github.com/Oksydan/falcon",
+        "owner": {
+          "login": "Oksydan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOEN5cEM5u71TM",
+      "closed": false,
+      "title": "🐛 [BUG] - ps_checkout doesn't work",
+      "createdAt": "2023-08-22T10:36:41Z",
+      "url": "https://github.com/Oksydan/falcon/issues/260",
+      "number": 260,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "falcon",
+        "url": "https://github.com/Oksydan/falcon",
+        "owner": {
+          "login": "Oksydan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/25306716?u=83badf9c7de0eb7bb78e487a56b9ee228248e61e&v=4",
+          "url": "https://github.com/Oksydan"
+        }
+      }
+    },
+    {
+      "id": "I_kwDODJeOV85tngiW",
+      "closed": true,
+      "title": "Impex Code Style Formatter",
+      "createdAt": "2023-08-07T09:39:08Z",
+      "url": "https://github.com/epam/sap-commerce-intellij-idea-plugin/issues/540",
+      "number": 540,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2292510?u=10c81b9b82effb21a98af877bf123e1799746680&v=4",
+            "name": "Mykhailo Lytvyn",
+            "url": "https://github.com/mlytvyn"
+          }
+        ]
+      },
+      "repository": {
+        "name": "sap-commerce-intellij-idea-plugin",
+        "url": "https://github.com/epam/sap-commerce-intellij-idea-plugin",
+        "owner": {
+          "login": "epam",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1589802?v=4",
+          "url": "https://github.com/epam"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOJUaQQc5k3yWY",
+      "closed": true,
+      "title": "How to use",
+      "createdAt": "2023-05-02T12:37:25Z",
+      "url": "https://github.com/prestascan/prestascansecurity/issues/14",
+      "number": 14,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "prestascansecurity",
+        "url": "https://github.com/prestascan/prestascansecurity",
+        "owner": {
+          "login": "prestascan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/126414922?v=4",
+          "url": "https://github.com/prestascan"
+        }
+      }
+    },
     {
       "id": "I_kwDOAGc0Q85CM1FJ",
       "closed": true,
@@ -128,6 +214,6 @@
       }
     }
   ],
-  "open": 1,
-  "totalCount": 6
+  "open": 3,
+  "totalCount": 10
 }
