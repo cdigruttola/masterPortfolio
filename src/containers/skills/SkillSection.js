@@ -47,7 +47,6 @@ class SkillSection extends Component {
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    var i = 0;
                     {skill.skills.map((skillSentence, i) => {
                       return (
                         <p
