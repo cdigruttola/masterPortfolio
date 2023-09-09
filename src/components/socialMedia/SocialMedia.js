@@ -17,7 +17,7 @@ export default function socialMedia(props) {
   return (
     <div className="social-media-div">
       {socialMediaLinks.map((media) => {
-        return (
+        return media.isBrand ? (
           <a
             key={media.name}
             href={media.link}
@@ -28,7 +28,18 @@ export default function socialMedia(props) {
             <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
             </IconWrapper>
-            {/* <span></span> */}
+          </a>
+        ) : (
+          <a
+            key={media.name}
+            href={media.link}
+            className={`icon-button`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconWrapper {...media} {...props}>
+              <i className={`${media.fontAwesomeIcon}`}></i>
+            </IconWrapper>
           </a>
         );
       })}
