@@ -53,7 +53,7 @@ const socialMediaLinks = [
     isBrand: false,
   },
   {
-    name: "Twitter",
+    name: "X-Twitter",
     link: "https://twitter.com/cdigruttola1",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#000", // Reference https://simpleicons.org/?q=twitter
