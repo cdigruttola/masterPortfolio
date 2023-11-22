@@ -291,6 +291,42 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "parthrc",
+      "name": "Parth Chawande",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101104958?v=4",
+      "profile": "https://github.com/parthrc",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "0Armaan025",
+      "name": "Armaan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104704093?v=4",
+      "profile": "https://github.com/0Armaan025",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "varundhand",
+      "name": "Varun Dhand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110025628?v=4",
+      "profile": "https://varundhand.netlify.app/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vjspranav",
+      "name": "VJS Pranavasri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17949836?v=4",
+      "profile": "http://vjspranav.dev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
