@@ -104,6 +104,21 @@ You can change the personal information, experience, education, social media, ce
 3. Remove the `fontAwesomeClassName` property or leave it empty because it takes precedence over `imageSrc`
 4. Add custom styling to the `img` using the `style` Property
 
+### How to Change the Icons on Education page under Basic Qualification and Certifications?
+
+1. The icons for this section are pulled from the `competitiveSites` array in the `portfolio.js` file.
+2. Visit the [Simple Icons website](https://simpleicons.org/).
+3. Search for the competitive site you want to add an icon for.
+4. Select the icon you want to use.
+5. Copy the text beside Selected Icon and replace it with iconifyClassname of that particular competitive site.
+
+### How to Use Custom Images Instead of Simple Icons for Competitive Sites
+
+1. Place the custom image file in the `public/skills` folder.
+2. Update the `imageSrc` attribute of the corresponding competitive site with the name of your custom image (e.g., `imageSrc: "customImage.png"`).
+3. Remove the `iconifyClassname` property or leave it empty, as the `imageSrc` property takes precedence over `iconifyClassname`.
+4. Optionally, add custom styling to the `<img>` tag using the `style` property to adjust size, positioning, etc.
+
 ### Github Information
 
 You will find `git_data_fetcher.mjs` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
@@ -217,7 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt="Ashutosh Hathidara"/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://danielmarostica.github.io/"><img src="https://avatars3.githubusercontent.com/u/3595998?v=4?s=100" width="100px;" alt="Daniel Marostica"/><br /><sub><b>Daniel Marostica</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=danielmarostica" title="Documentation">📖</a> <a href="#design-danielmarostica" title="Design">🎨</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://dineshnadimpalli.com"><img src="https://avatars2.githubusercontent.com/u/13104926?v=4?s=100" width="100px;" alt="Dinesh Nadimpalli"/><br /><sub><b>Dinesh Nadimpalli</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dineshnadimpalli" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://dineshnadimpalli.github.io/"><img src="https://avatars2.githubusercontent.com/u/13104926?v=4?s=100" width="100px;" alt="Dinesh Nadimpalli"/><br /><sub><b>Dinesh Nadimpalli</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dineshnadimpalli" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://jivthesh.github.io"><img src="https://avatars3.githubusercontent.com/u/20579980?v=4?s=100" width="100px;" alt="Jivthesh M R"/><br /><sub><b>Jivthesh M R</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=jivthesh" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://jatinchauhan.tech"><img src="https://avatars2.githubusercontent.com/u/40722235?v=4?s=100" width="100px;" alt="Jatin Chauhan"/><br /><sub><b>Jatin Chauhan</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=mrjatinchauhan" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://th3c0d3br34ker.github.io/"><img src="https://avatars1.githubusercontent.com/u/60807938?v=4?s=100" width="100px;" alt="Jainam Desai"/><br /><sub><b>Jainam Desai</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=th3c0d3br34ker" title="Code">💻</a> <a href="#question-th3c0d3br34ker" title="Answering Questions">💬</a></td>
@@ -261,6 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Adamou02"><img src="https://avatars.githubusercontent.com/u/42783707?v=4?s=100" width="100px;" alt="Adam Bouhrara"/><br /><sub><b>Adam Bouhrara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Adamou02" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/16ratneshkumar"><img src="https://avatars.githubusercontent.com/u/142919875?v=4?s=100" width="100px;" alt="Ratnesh Kumar"/><br /><sub><b>Ratnesh Kumar</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=16ratneshkumar" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=16ratneshkumar" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
